@@ -29,6 +29,8 @@ public class Dinero {
             System.exit(1);
         }
         
+        System.out.println("Good jaerb, Homestretch!");
+        
         System.exit(0);
     }
 }
