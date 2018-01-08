@@ -19,6 +19,7 @@ public class Dinero {
             fileRecords = args[0];
         } catch (ArrayIndexOutOfBoundsException e) {
             LOGGER.log(Level.SEVERE, e.toString(), e);
+            System.out.println("Please provide a CSV to parse.");
             System.exit(1);
         }
 
